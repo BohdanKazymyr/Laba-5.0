@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Laba 5.1.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTest2\UnitTest2.vcxproj">
+      <Project>{6eaaf6e3-e818-46d7-8539-444e55e36f59}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
